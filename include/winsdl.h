@@ -1,5 +1,7 @@
 #pragma once 
 
+#include <stdint.h>
+#include "defines_windows.h"
 #include <GL/gl.h>
 #include <SDL2/SDL.h>
 #include "SDL_error.h"
