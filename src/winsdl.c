@@ -1,6 +1,6 @@
 #include "winsdl.h"
 
-int ventana_init(Ventana *_vent, uint _width, uint _height){
+int ventana_init(Ventana *_vent, unsigned int _width, unsigned int _height){
 
 	_vent->width = _width;
 	_vent->height = _height;

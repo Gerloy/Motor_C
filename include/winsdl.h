@@ -1,7 +1,6 @@
 #pragma once 
 
 #include <stdint.h>
-#include "defines_windows.h"
 #include <GL/gl.h>
 #include <SDL2/SDL.h>
 #include "SDL_error.h"
@@ -14,9 +13,9 @@
 typedef struct Ventana{
 	SDL_Window *ventana;
 	SDL_Renderer *renderer;
-	int width;
-	int height;
+	unsigned int width;
+	unsigned int height;
 	
 } Ventana;
 
-extern int ventana_init(Ventana *vent,uint width, uint height);
+extern int ventana_init(Ventana *vent, unsigned int width, unsigned int height);
