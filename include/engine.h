@@ -1,6 +1,5 @@
 #pragma once
 
-#include "winsdl.h"
 #include <GL/gl.h>
 #include <SDL2/SDL.h>
 #include "SDL_error.h"

@@ -6,7 +6,7 @@ void VertexBuffer_init(VertexBuffer *vbuffer,const unsigned int *_data, unsigned
 	glBufferData(GL_ARRAY_BUFFER, size, _data, GL_STATIC_DRAW);
 }
 
-void IndexBuffer_bind(VertexBuffer *vbuffer){glBindBuffer(GL_ARRAY_BUFFER, vbuffer->rendererID);}
-void IndexBuffer_unbind(){glBindBuffer(GL_ARRAY_BUFFER, 0);}
+void VertexBuffer_bind(VertexBuffer *vbuffer){glBindBuffer(GL_ARRAY_BUFFER, vbuffer->rendererID);}
+void VertexBuffer_unbind(){glBindBuffer(GL_ARRAY_BUFFER, 0);}
 
-void IndexBuffer_delete(VertexBuffer *vbuffer){glDeleteBuffers(1, &vbuffer->rendererID);}
+void VertexBuffer_delete(VertexBuffer *vbuffer){glDeleteBuffers(1, &vbuffer->rendererID);}
