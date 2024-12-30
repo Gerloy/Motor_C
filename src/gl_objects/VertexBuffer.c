@@ -1,4 +1,4 @@
-#include "VertexBuffer.h"
+#include "gl_objects/VertexBuffer.h"
 
 void VertexBuffer_init(VertexBuffer *vbuffer,const unsigned int *_data, unsigned int size){
 	glGenBuffers(1, &vbuffer->rendererID);

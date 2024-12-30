@@ -1,4 +1,4 @@
-#include "IndexBuffer.h"
+#include "gl_objects/IndexBuffer.h"
 
 void IndexBuffer_init(IndexBuffer *ibuffer,const unsigned int *_data, unsigned int _count){
 	ibuffer->count = _count;
