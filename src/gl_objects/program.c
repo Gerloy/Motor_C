@@ -41,6 +41,9 @@ void Program_Init(Program *program, const char *path){
 	unsigned int vshader = Create_Shader(vertex, VERTEX);
 	unsigned int fshader = Create_Shader(fragment, FRAGMENT);
 
+	//Creamos el programa para que el id apunte a algo
+	program->id = glCreateProgram();
+
 	glAttachShader(program->id, vshader);
 	glAttachShader(program->id, fshader);
 	glLinkProgram(program->id);
@@ -50,6 +53,6 @@ void Program_Init(Program *program, const char *path){
 	glDeleteShader(fshader);
 }
 
-void Progrm_Delete(Program *program){
+void Program_Delete(Program *program){
 	glDeleteProgram(program->id);
 }

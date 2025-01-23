@@ -15,4 +15,4 @@ typedef struct Program{
 void Program_Init(Program *program, const char *path);
 
 //Borra el program de la memoria
-void Progrm_Delete(Program *program);
+void Program_Delete(Program *program);
