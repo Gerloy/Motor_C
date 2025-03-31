@@ -8,7 +8,7 @@
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_render.h>
 #include <SDL2/SDL_opengl.h>
-#include "winsdl.h"
+#include "Window.h"
 
 typedef struct Engine{
 	Ventana	 ventana;

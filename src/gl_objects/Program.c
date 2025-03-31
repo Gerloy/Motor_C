@@ -1,6 +1,6 @@
-#include "gl_objects/program.h"
-#include "gl_objects/shader.h"
-#include "utils/strings.h"
+#include "gl_objects/Program.h"
+#include "gl_objects/Shader.h"
+#include "utils/Strings.h"
 #include <string.h>
 
 void Program_Init(Program *program, const char *path){

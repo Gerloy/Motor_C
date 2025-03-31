@@ -3,10 +3,10 @@
 #include <GL/glew.h>
 #include <GL/gl.h>
 #include <SDL2/SDL.h>
-#include "gl_objects/program.h"
+#include "gl_objects/Program.h"
 #include <stdio.h>
-#include "utils/strings.h"
-#include "gl_objects/shader.h"
+#include "utils/Strings.h"
+#include "gl_objects/Shader.h"
 
 typedef struct ProgramNode{
 	Program *program;

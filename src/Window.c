@@ -1,4 +1,4 @@
-#include "winsdl.h"
+#include "Window.h"
 
 int ventana_init(Ventana *_vent, unsigned int _width, unsigned int _height){
 

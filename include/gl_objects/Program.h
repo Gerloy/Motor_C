@@ -4,8 +4,8 @@
 #include <GL/gl.h>
 #include <SDL2/SDL.h>
 #include <stdio.h>
-#include "utils/strings.h"
-#include "gl_objects/shader.h"
+#include "utils/Strings.h"
+#include "gl_objects/Shader.h"
 
 typedef struct Program{
 	GLuint id;

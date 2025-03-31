@@ -1,4 +1,4 @@
-#include "gl_objects/shader.h"
+#include "gl_objects/Shader.h"
 
 unsigned int Create_Shader(const char *source, unsigned int type){
 	
