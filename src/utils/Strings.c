@@ -1,4 +1,4 @@
-#include "utils/strings.h"
+#include "utils/Strings.h"
 #include <stdlib.h>
 
 //Checkea la string where y se fija si la string find esta incluida en esta

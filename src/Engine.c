@@ -1,4 +1,4 @@
-#include "engine.h"
+#include "Engine.h"
 
 int Engine_init(Engine *_eng, int _w, int _h){
 

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "SDL_image.h"
+#include <SDL2/SDL_image.h>
 #include "extern/stb_image.h"
 #include <GL/gl.h>
 

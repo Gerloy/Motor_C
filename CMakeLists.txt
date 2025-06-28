@@ -32,4 +32,5 @@ target_link_libraries(Motor2D
 	OpenGL::GL
 	SDL2::SDL2
 	SDL2_image
+	m
 	)
